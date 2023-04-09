@@ -86,7 +86,7 @@
 				947CA7EA29E31B1D00A1F9E7 /* Extensions */,
 				9408838929E3192D00129130 /* Screens */,
 				947CA83D29E31E3300A1F9E7 /* ViewModifiers */,
-				9408838A29E3193C00129130 /* Views */,
+				94A7548B29E323EF005800BF /* Views */,
 				9408838B29E3194900129130 /* Resources */,
 				9408837F29E318CB00129130 /* WatchVault.entitlements */,
 			);
@@ -110,13 +110,6 @@
 				9408839229E3196C00129130 /* WelcomeScreen.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		9408838A29E3193C00129130 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		9408838B29E3194900129130 /* Resources */ = {
@@ -181,6 +174,13 @@
 				947CA83E29E31E4B00A1F9E7 /* ViewDidLoadModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		94A7548B29E323EF005800BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
