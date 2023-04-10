@@ -86,7 +86,7 @@
 				947CA7EA29E31B1D00A1F9E7 /* Extensions */,
 				9408838929E3192D00129130 /* Screens */,
 				947CA83D29E31E3300A1F9E7 /* ViewModifiers */,
-				94A7548B29E323EF005800BF /* Views */,
+				D4B995BF29E3F739004C96BF /* Views */,
 				9408838B29E3194900129130 /* Resources */,
 				9408837F29E318CB00129130 /* WatchVault.entitlements */,
 			);
@@ -176,7 +176,7 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
-		94A7548B29E323EF005800BF /* Views */ = {
+		D4B995BF29E3F739004C96BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
