@@ -10,9 +10,18 @@ import SwiftUI
 @main
 struct WatchVaultApp: App {
     
+    @Namespace var namespace
+    
     init() {
-        UITabBar.appearance().isHidden = true
-        // UIScrollView.appearance().bounces = false
+        let coloredNavigationBarAppearance = UINavigationBarAppearance()
+        coloredNavigationBarAppearance.configureWithTransparentBackground()
+        coloredNavigationBarAppearance.backgroundColor = UIColor.appBackground
+        coloredNavigationBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.appForeground]
+        coloredNavigationBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.appForeground]
+
+        UINavigationBar.appearance().standardAppearance = coloredNavigationBarAppearance
+        UINavigationBar.appearance().compactAppearance = coloredNavigationBarAppearance
+        UINavigationBar.appearance().scrollEdgeAppearance = coloredNavigationBarAppearance
     }
     
     var body: some Scene {

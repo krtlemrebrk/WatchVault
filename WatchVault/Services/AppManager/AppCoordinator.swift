@@ -17,10 +17,12 @@ struct AppCoordinator: View {
             case .main: MainScreen()
             case .welcome: WelcomeScreen()
             }
-            
-            if appManager.showSplashScreen {
-                SplashScreen()
-            }
+            SplashScreen().opacity(appManager.showSplashScreen ? 1 : 0)
         }
+        .onViewDidLoad {
+            Task {
+                await TMDBManager.shared.getConfiguration()
+            }
+        }.preferredColorScheme(AppManager.shared.getPrefferedColorScheme())
     }
 }

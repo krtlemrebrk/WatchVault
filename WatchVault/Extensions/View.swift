@@ -7,17 +7,12 @@
 
 import SwiftUI
 
+typealias Parameters = [String: String]
 typealias VoidHandler = (() -> Void)
 
 extension View {
     
-    /*
     func onViewDidLoad(perform action: VoidHandler? = nil) -> some View {
         modifier(ViewDidLoadModifier(action: action))
     }
-    
-    func tabBar(color: Color = .orange) -> some View {
-        modifier(TabBarViewModifier(color: color))
-    }
-     */
 }
